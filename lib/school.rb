@@ -18,7 +18,7 @@ class School
 
   def sort
     #roster.sort_by{|k,v| v}
-    Hash[roster.sort_by{|k, v| v}]
+    Hash[roster.sort_by{|k, v| v.sort}]
   end
 
 end
