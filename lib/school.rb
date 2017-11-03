@@ -19,7 +19,8 @@ class School
   def sort
     #roster.map {|grade, name| grade.sort}
     #roster.keys.sort!
-    roster.sort
+    roster.sort!
+    roster
   end
 
 end
