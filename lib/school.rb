@@ -17,8 +17,6 @@ class School
   end
 
   def sort
-    #roster.sort_by{|k,v| v}
-    #roster.sort_by{|k, v| v.sort}
     roster.each do |grade, value|
       roster[grade] = value.sort
     end
